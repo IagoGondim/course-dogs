@@ -6,7 +6,7 @@ body{
   margin: 0px;
   color: #333;
   --type-first: Helvetica, Arial, sans-serif;
-  --type-second: 'Spectral', georgia;
+  --type-second: 'Spectral', serif;
   font-family: var(--type-first);
   padding-top: 4rem;
 }
@@ -20,6 +20,14 @@ ul, li{
   list-style: none;
   padding: 0px;
   margin: 0px;
+}
+
+button,
+input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
+  color: #333;
 }
 
 a{
