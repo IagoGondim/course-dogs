@@ -1,22 +1,21 @@
-import Footer from "./Components/Footer/Footer"
-import Header from "./Components/Header/Header"
-import AppRoute from "./Routes/AppRoute"
-import { BrowserRouter as Router} from 'react-router-dom';
-import Home from "./Components/Home/Home";
-import Login from "./Components/Login/Login";
-
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import AppRoute from "./Routes/AppRoute";
+import { BrowserRouter as Router } from "react-router-dom";
+import { UserStorage } from "./useContext/useContext";
 
 function App() {
-
   return (
-    <div >
+    <div>
       <Router>
-        <Header/>
-          <AppRoute/>
-        <Footer/>
+        <UserStorage>
+          <Header />
+          <AppRoute />
+          <Footer />
+        </UserStorage>
       </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
