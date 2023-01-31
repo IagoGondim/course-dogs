@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
+import NotFound from "../Components/Helper/NotFound";
 import ProtectedRoute from "../Components/Helper/ProtectedRoute";
 import Home from "../Components/Home/Home";
 import Login from "../Components/Login/Login";
-import NotFound from "../Components/NotFound";
 import Photo from "../Components/Photo/Photo";
 import User from "../Components/User/User";
 import UserProfile from "../Components/User/UserProfile";
