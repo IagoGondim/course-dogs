@@ -15,6 +15,7 @@
 .forms{
   max-width: 30rem;
   padding: 1rem;
+  margin-top: 20vh;
 }
 
 @media (max-width: 40rem){
@@ -23,9 +24,9 @@
   }
   .login::before{
   display: none;
-}
+  }
 .forms{
   max-width: 100%;
   padding: 1rem;
-}
+  }
 }
