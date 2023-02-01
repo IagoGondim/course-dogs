@@ -6,7 +6,7 @@ import { UserStorage } from "./useContext/useContext";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Router>
         <UserStorage>
           <Header />
